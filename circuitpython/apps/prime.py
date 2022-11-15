@@ -1,3 +1,5 @@
+# https://github.com/kreier/prime/tree/main/circuitpython
+
 import math, time
 last = 10000
 found = 4          # we start from 11, know 2, 3, 5, 7
