@@ -1,0 +1,24 @@
+Pin definition 320x200 SPI Display on rp2040
+
+RESET     14
+DC        15
+MISO(SDO) 16
+CS        17
+SCK       18
+MOSI(SDI) 19
+
+LED      3V3
+VCC      3V3
+GND      GND
+
+
+Microcontroller to RVR
+
+                 blackpill  rp2040  lilygo  Metro M4 express
+        UART TX     A2       GP4      IO1          D1
+             RX     A3       GP5      IO2          D0
+
+Ultrasonic trigger  B1       GP10     IO5          D11
+           echo     B0       GP11     IO4          D10
+
+
