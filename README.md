@@ -35,13 +35,13 @@ Example programs in CircuitPython for the Raspberry Pico 2040. We use it with 3 
 
 ## 128x64 sh1106 1.3 inch oled
 
-![sh1106](docs/sh1106)
+![sh1106](docs/sh1106.jpg)
 
 [1.3 inch oled at thegioiic.com](https://www.thegioiic.com/lcd-oled-1-3inch-128x64-chu-xanh-duong-4-chan-giao-tiep-iic)
 
 ## 128x32 ssd1306 oled adafruit
 
-![adafruit oled](docs/ssh1306)
+![adafruit oled](docs/ssh1306.jpg)
 
 [Adafruit documentation circuitpython]()
 
