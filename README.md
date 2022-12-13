@@ -41,7 +41,7 @@ Example programs in CircuitPython for the Raspberry Pico 2040. We use it with 3 
 
 ## 128x32 ssd1306 oled adafruit
 
-![adafruit oled](docs/ssh1306.jpg)
+![adafruit oled](docs/ssd1306.jpg)
 
 [Adafruit documentation circuitpython]()
 
