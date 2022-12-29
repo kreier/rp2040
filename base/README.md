@@ -7,3 +7,10 @@ In order to have an autonomous microcontroller system we created a 3D-printed ba
 It took several iterations until it was finished and had the i2c connector included:
 
 ![i2c](../docs/i2c_connector.jpg)
+![examples](../docs/i2c_order.jpg)
+
+## Revision 5
+
+Relocated position for OLED display, 3mm lower to accompany for the SD-card reader below the 3.2" display. And the i2c output board 9x10 gets two holes for the 3mm inlets.
+
+![rev5](drawing.png)
