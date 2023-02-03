@@ -23,8 +23,8 @@ Example programs in CircuitPython for the Raspberry Pico 2040. We use it with 3 
 | DC    | GP8  | Data/Command control pin (High for data; Low for command) |
 | RST   | GP12 | Reset pin, low active                                     |
 | BL    | GP13 | Backlight control                                         |
-| A     | GP15 | User button A                                             |
-| B     | GP17 | User button B                                             |
+| A     | GP15 | User button A  -----  left button                         |
+| B     | GP17 | User button B  -----  right button                        |
 | X     | GP19 | User button X                                             |
 | Y     | GP21 | User buttonY                                              |
 | UP    | GP2  | Joystick-up                                               |
@@ -32,6 +32,8 @@ Example programs in CircuitPython for the Raspberry Pico 2040. We use it with 3 
 | LEFT  | GP16 | Joystick-left                                             |
 | RIGHT | GP20 | Joystick-right                                            |
 | CTRL  | GP3  | Joystick-center                                           |
+| SDA   | GP0  | i2c data line for OLED and external sensors               |
+| SCL   | GP0  | i2c clock for OLED and external sensors                   |
 
 ## 128x64 sh1106 1.3 inch oled
 
