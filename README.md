@@ -33,7 +33,7 @@ Example programs in CircuitPython for the Raspberry Pico 2040. We use it with 3 
 | RIGHT | GP20 | Joystick-right                                            |
 | CTRL  | GP3  | Joystick-center                                           |
 | SDA   | GP0  | i2c data line for OLED and external sensors               |
-| SCL   | GP0  | i2c clock for OLED and external sensors                   |
+| SCL   | GP1  | i2c clock for OLED and external sensors                   |
 
 ## 128x64 sh1106 1.3 inch oled
 
