@@ -1,0 +1,4 @@
+Adafruit CircuitPython 8.2.8 on 2023-11-16; LILYGO T-DISPLAY with rp2040
+Board ID:lilygo_t_display_rp2040
+UID:DE62309247682726
+boot.py output:
