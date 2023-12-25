@@ -10,12 +10,10 @@ import digitalio
 from adafruit_debouncer import Debouncer
 
 pin_a = digitalio.DigitalInOut(board.GP15)
-pin_a.direction = digitalio.Direction.INPUT
-pin_a.pull = digitalio.Pull.UP
+#pin_a.direction = digitalio.Direction.INPUT
 button_a = Debouncer(pin_a, interval=0.05)
 pin_b = digitalio.DigitalInOut(board.GP17)
-pin_b.direction = digitalio.Direction.INPUT
-pin_b.pull = digitalio.Pull.UP
+#pin_b.direction = digitalio.Direction.INPUT
 button_b = Debouncer(pin_b, interval=0.05)
 
 print("Press button A or B")

@@ -1,9 +1,16 @@
-# mandelbrot on rp2040 with st7789 240x240
-# https://github.com/kreier/mandelbrot/circuitpython
-# 2022/11/28 v0.1
+# mandelbrot on rp2040 with lcd 240x240
+# https://github.com/kreier/rp2040/blob/main/tft_st7789_240x240/menu/Mandelbrot.py
+# 2023/12/26 v0.2
 
-import board, displayio, random, busio
-from adafruit_st7789 import ST7789
+import board, displayio, random, busio, digitalio, time
+
+button_ok = digitalio.DigitalInOut(board.GP3)
+button_ok.direction = digitalio.Direction.INPUT
+button_ok.pull = digitalio.Pull.UP
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+#from adafruit_st7789 import ST7789
 #displayio.release_displays()
 #spi = busio.SPI(clock=board.GP10, MOSI=board.GP11)
 #tft_cs = board.GP9
@@ -60,7 +67,7 @@ maxX = 0.6
 width = display.width
 height = display.height
 aspectRatio = 1
-ITERATION = 50
+ITERATION = 20
 yScale = (maxX-minX)*(float(height)/width)*aspectRatio
 
 for y in range(height):
@@ -77,7 +84,14 @@ for y in range(height):
             pixelcolor = iter *5
         bitmap[x, y] = pixelcolor
 
-
-# Loop forever so you can enjoy your image
-while True:
-    pass
+timer = time.monotonic()
+led.value = True
+while True:                   # Loop forever so you can enjoy your image
+    if not button_ok.value:
+        led.deinit()
+        button_ok.deinit()
+        exec(open("code.py").read())
+    if timer + 1 < time.monotonic():
+        led.value = not led.value
+        timer = time.monotonic()
+        print("LED", end=" ")
