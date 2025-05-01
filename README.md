@@ -1,5 +1,9 @@
 # rp2040
-Example programs in CircuitPython for the Raspberry Pico 2040. We use it with 3 different external displays as more detailed optical output than just the led.
+
+![GitHub Release](https://img.shields.io/github/v/release/kreier/rp2040)
+![GitHub License](https://img.shields.io/github/license/kreier/rp2040)
+
+Example programs in CircuitPython and C for the Raspberry Pico 2040. We use it with 3 different external displays as more detailed optical output than just the led.
 
 ## 320x240 ili9341 3.2 inch tft
 
