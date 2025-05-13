@@ -1,6 +1,8 @@
 # Overclocking the Raspberry Pico rp2040 - released 2021
 
-It can reach more than 1 GHz and be faster than the original Raspberry Pi 1 from 2012 with BCM2835 ([ARM11](https://en.wikipedia.org/wiki/ARM11) 32bit ARMv6) stock 700 MHz and even faster than the Zero W from 2017 with the same SoC at 1 GHz
+It can reach more than 1 GHz and be faster than the original Raspberry Pi 1 from 2012 with BCM2835 ([ARM11](https://en.wikipedia.org/wiki/ARM11) 32bit ARMv6) stock 700 MHz and even faster than the Zero W from 2017 with the same SoC at 1 GHz:
+
+![Xtreme Overclocking](../docs/Dhrystone-at-1GHz.png)
 
 ## 2022-08-22 Story on raspberrypi.com: 1 GHz
 
